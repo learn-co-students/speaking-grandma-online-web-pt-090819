@@ -1,14 +1,13 @@
-def speak_to_grandma(phrase ="I LOVE YOU GRANDMA!") # Write a speak_to_grandma method.
-if phrase.downcase == phrase
-  return "HUH?! , SPEAK UP, SONNY!"
-elsif phrase.upcase == phrase
-  return "NO, NOT SINCE 1938!"
-else
-  phrase == phrase
+def speak_to_grandma(phrase) # Write a speak_to_grandma method.
+ if phrase == "I LOVE YOU GRANDMA!"
   return "I LOVE YOU TOO PUMPKIN!"
+ elsif phrase.upcase != phrase
+   return "HUH?! SPEAK UP, SONNY!"
+ else
+   return "NO, NOT SINCE 1938!"
+ end
 end
-end
-speak_to_grandma
+
 # Whatever you say to grandma, she should respond with
 # HUH?! SPEAK UP, SONNY!
 # unless you shout it (type in all capitals).
