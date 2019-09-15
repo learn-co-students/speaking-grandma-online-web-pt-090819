@@ -1,6 +1,7 @@
 describe '#speak_to_grandma' do
   it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
     expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
+      if
   end
 
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
@@ -9,6 +10,7 @@ describe '#speak_to_grandma' do
 
   it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
+  if
   end
 
   it 'responds with NO, NOT SINCE 1938! when she can hear you' do
