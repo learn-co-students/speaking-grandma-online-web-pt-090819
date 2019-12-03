@@ -1,22 +1,14 @@
 def speak_to_grandma(string)
 
+  if string == 'I LOVE YOU GRANDMA!'
+    return 'I LOVE YOU TOO PUMPKIN!'
 
-if string == "I LOVE YOU GRANDMA!"
-    return "I LOVE YOU TOO PUMPKIN!"
+  elsif string == string.upcase
+    return "NO, NOT SINCE 1938!" 
 
-elsif  string == "Hi Nana, how are you?"
+  else 
     return "HUH?! SPEAK UP, SONNY!"
-
-elsif string == "WHAT DID YOU EAT TODAY?"
-    return "NO, NOT SINCE 1938!"
-
-elsif string =="Hi!"
-      return "HUH?! SPEAK UP, SONNY!"
- 
- elsif string== "WHAT?"
-    return "NO, NOT SINCE 1938!"
- end
- 
+  end
 end
 
 
